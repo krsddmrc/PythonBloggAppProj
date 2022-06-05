@@ -1,0 +1,6 @@
+<h3>Please, click on the button after fillings to register</h3>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p}}
+    <input type="submit" value="Register">
+</form>
